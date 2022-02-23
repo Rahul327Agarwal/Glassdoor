@@ -1,0 +1,71 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: #eaeaea;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.mainhead {
+  display: grid;
+  background-color: white;
+  height: 40px;
+}
+.mainhead img {
+  height: 35px;
+  margin: 0.21%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: auto;
+  justify-content: center;
+  width: 60%;
+  grid-gap: 2%;
+}
+.cards div {
+  background-color: #ffffff;
+  padding: 2%;
+}
+.cardright * {
+  background-color: white;
+}
+
+/* // trying radio buton */
+.cardleft * {
+  background-color: #ffffff;
+}
+.main {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+}
+#next {
+  background-color: #1c5092;
+  color: white;
+  padding: 1% 4%;
+  font-size: 20px;
+  border: 0px;
+  float: right;
+}
+input[type="text"],
+textarea {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #dddddd;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+button {
+  border: 1px solid grey;
+}
